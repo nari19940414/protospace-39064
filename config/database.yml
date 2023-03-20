@@ -20,7 +20,7 @@ development:
   username: root
   password:
   host: localhost
-  database: ajax_app_development
+  database: protospace_39064_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -31,7 +31,7 @@ test:
   username: root
   password:
   host: localhost
-  database: ajax_app_test
+  database: protospace_39064_test
 
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -54,7 +54,6 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
   <<: *default
   adapter: postgresql
   url: <%= ENV['DATABASE_URL'] %>
